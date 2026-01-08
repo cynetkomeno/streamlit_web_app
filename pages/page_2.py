@@ -1,8 +1,5 @@
 import streamlit as st
-from PIL import Image
 import datetime
-import pandas as pd
-import matplotlib.pyplot as plt
 
 name = st.text_input("名前")
 address = st.text_input("住所")
